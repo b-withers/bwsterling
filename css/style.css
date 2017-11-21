@@ -1,3 +1,7 @@
+ body{
+   background-image: url("bg.jpg");
+ }
+ 
  /* Remove the navbar's default margin-bottom and rounded borders */ 
  .navbar {
     margin-bottom: 0;
@@ -10,7 +14,7 @@
   /* Set gray background color and 100% height */
   .sidenav {
     padding-top: 20px;
-    background-color: #f1f1f1;
+    background-color: #f1f1f1bd;
     height: 100%;
   }
   
@@ -19,6 +23,7 @@
     background-color: #555;
     color: white;
     padding: 15px;
+ 
   }
 
   #bwsterling{
@@ -26,7 +31,7 @@
     font-weight: bold;
     text-align: center;
     padding-bottom: 10px;
-    
+    font-size: 50px;
   }
 
   #git{
@@ -64,7 +69,16 @@
   #skill{
     text-align: center;
   }
+
+  #profile{
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 5px;
+  }
   
+  #paragraph{
+    
+  }
   /* On small screens, set height to 'auto' for sidenav and grid */
   @media screen and (max-width: 767px) {
     .sidenav {
