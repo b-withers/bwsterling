@@ -152,3 +152,9 @@
     a:hover { 
       background-color: yellow;
   }
+
+  #image{
+    width: 150px;
+    height: 80px;
+    image: fill;
+  }
