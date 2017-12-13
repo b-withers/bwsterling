@@ -84,6 +84,16 @@ body{
     width: 20%;
   }
 
+  #feature{
+    height: 75%;
+    width: 75%;
+  }
+
+  .feature{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
   #skills{
     height: 6%;
     width: 6%;
