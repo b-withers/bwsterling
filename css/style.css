@@ -1,21 +1,34 @@
 body{
   background-image: url("log.png");
- background-size: cover;
-  background-repeat: no-repeat;
-  background-image;
-  
+  background-size: cover;
+  background-repeat: no-repeat;  
 }
- /* Remove the navbar's default margin-bottom and rounded borders */ 
+
+.nav{
+  font-family: 'Poiret One', cursive;
+  font-size: 18px;
+  font-weight: bold;
+}
+
  .navbar {
     margin-bottom: 0;
     border-radius: 0;
     margin-bottom: .3%;
   }
+
+  #mainbody{
+    background-color: #ffffff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#bfbfbf), to(#ffffff));
+    background-image: -webkit-linear-gradient(top, #bfbfbf, #ffffff);
+    background-image: -moz-linear-gradient(top, #bfbfbf, #ffffff);
+    background-image: -o-linear-gradient(top, #bfbfbf, #ffffff);
+    background-image: linear-gradient(to bottom, #bfbfbf, #ffffff);
+  }
   
-  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-  .row.content {height: 450px}
+  .row.content {
+    height: 450px
+  }
   
-  /* Set gray background color and 100% height */
   .sidenav {
     font-family: 'Poiret One', cursive;
     font-weight: bold;
@@ -24,31 +37,16 @@ body{
     height: 100%;
   }
   
-  /* Set black background color, white text and some padding */
-  footer {
-    background-color: rgba(8, 0, 0, 0.822);
-    color: white;
-    padding: 15px;
-    font-family: 'Poiret One', cursive;
-    font-weight: bold;
-    text-align: center;
- margin-top: .3%;
-  }
-
-
-
   #bwsterling{
     font-family: 'Poiret One', cursive;
     font-weight: bold;
     text-align: center;
-    font-size: 75px;
-  
+    font-size: 73px;
   }
 
   .sidenav{
     position: relative;
-    right: 14px;
-    
+    right: 14px;   
   }
 
   #logos{
@@ -56,28 +54,22 @@ body{
     border-bottom-style: solid;
   }
 
-
-
-  .nav{
-    font-family: 'Poiret One', cursive;
-    font-size: 16px;
-    font-weight: bold;
-  }
-
   #find{
     font-weight: bold;
     padding-bottom: 5px;
     font-size: 25px;
   }
+
   #git{
     height: 20%;
     width: 20%;
-    text-align: left;
   }
+
   #linked{
     height: 20%;
     width: 20%;
   }
+
   #flickr{
     height: 20%;
     width: 20%;
@@ -97,7 +89,7 @@ body{
     height: 85%;
     width: 85%;
     text-align: center;
-    padding-bottom: 3%;
+    padding-bottom: 3f%;
   }
 
   .feature{
@@ -110,15 +102,16 @@ body{
     height: 6%;
     width: 6%;
     padding-right: 2%;
-   
     text-align: center;
   }
+
 #skillhead{
   font-family: 'Poiret One', cursive;
-  font-size: px;
+  font-size: 30px;
   text-align: center;
   font-weight: bold;
 }
+
   #skill{
     font-size: 16px;
     margin-right: 1.5%;
@@ -136,14 +129,6 @@ body{
     font-size: 16px;
     margin-right: 1.5%;
   }
-  /* On small screens, set height to 'auto' for sidenav and grid */
-  @media screen and (max-width: 767px) {
-    .sidenav {
-      height: auto;
-      padding: 15px;
-    }
-    .row.content {height:auto;} 
-  }
 
   a {
     color: #000000;
@@ -154,8 +139,6 @@ a:visited {
   text-decoration: none;
 }
 
-
-
   #image{
     width: 150px;
     height: 80px;
@@ -164,14 +147,22 @@ a:visited {
 
   #logos{
     text-align: left;
-   
   }
 
-  #mainbody{
-    background-color: #ffffff;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#bfbfbf), to(#ffffff));
-    background-image: -webkit-linear-gradient(top, #bfbfbf, #ffffff);
-    background-image:    -moz-linear-gradient(top, #bfbfbf, #ffffff);
-    background-image:      -o-linear-gradient(top, #bfbfbf, #ffffff);
-    background-image:         linear-gradient(to bottom, #bfbfbf, #ffffff);
+  footer {
+    background-color: rgba(8, 0, 0, 0.822);
+    color: white;
+    padding: 15px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: .3%;
+  }
+
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
   }
