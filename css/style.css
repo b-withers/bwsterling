@@ -28,6 +28,9 @@ body{
     background-color: rgba(8, 0, 0, 0.918);
     color: white;
     padding: 15px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    text-align: center;
  
   }
 
@@ -45,6 +48,11 @@ body{
     position: relative;
     right: 14px;
     
+  }
+
+  #logos{
+    border-bottom: black;
+    border-bottom-style: solid;
   }
 
 
@@ -85,8 +93,9 @@ body{
   }
 
   #feature{
-    height: 75%;
-    width: 75%;
+    height: 80%;
+    width: 80%;
+    text-align: center;
   }
 
   .feature{
