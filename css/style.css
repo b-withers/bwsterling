@@ -1,7 +1,10 @@
-
- body{
-   background-image: url("bg.jpg");
- }
+body{
+  background-image: url("log.png");
+ background-size: cover;
+  background-repeat: no-repeat;
+  background-image;
+  
+}
  /* Remove the navbar's default margin-bottom and rounded borders */ 
  .navbar {
     margin-bottom: 0;
@@ -22,7 +25,7 @@
   
   /* Set black background color, white text and some padding */
   footer {
-    background-color: rgba(8, 0, 0, 0.76);
+    background-color: rgba(8, 0, 0, 0.918);
     color: white;
     padding: 15px;
  
@@ -41,7 +44,7 @@
   .sidenav{
     position: relative;
     right: 14px;
-    text-align: center;
+    
   }
 
 
@@ -55,7 +58,7 @@
   #find{
     font-weight: bold;
     padding-bottom: 5px;
-    font-size: 30px;
+    font-size: 25px;
   }
   #git{
     height: 20%;
@@ -121,7 +124,7 @@
   }
 
   a {
-    color: hotpink;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -139,11 +142,14 @@ a:visited {
 
   #logos{
     text-align: left;
-    padding-left: 25%;
-    padding-top: 2%;
-    font-size: 20px;
+   
   }
 
   #mainbody{
-    background-color: lightgray;
+    background-color: #ffffff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#bfbfbf), to(#ffffff));
+    background-image: -webkit-linear-gradient(top, #bfbfbf, #ffffff);
+    background-image:    -moz-linear-gradient(top, #bfbfbf, #ffffff);
+    background-image:      -o-linear-gradient(top, #bfbfbf, #ffffff);
+    background-image:         linear-gradient(to bottom, #bfbfbf, #ffffff);
   }
