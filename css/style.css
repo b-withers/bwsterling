@@ -9,6 +9,7 @@ body{
  .navbar {
     margin-bottom: 0;
     border-radius: 0;
+    margin-bottom: .3%;
   }
   
   /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
@@ -25,13 +26,13 @@ body{
   
   /* Set black background color, white text and some padding */
   footer {
-    background-color: rgba(8, 0, 0, 0.918);
+    background-color: rgba(8, 0, 0, 0.822);
     color: white;
     padding: 15px;
     font-family: 'Poiret One', cursive;
     font-weight: bold;
     text-align: center;
- 
+ margin-top: .3%;
   }
 
 
@@ -93,14 +94,16 @@ body{
   }
 
   #feature{
-    height: 80%;
-    width: 80%;
+    height: 85%;
+    width: 85%;
     text-align: center;
+    padding-bottom: 3%;
   }
 
   .feature{
     font-size: 20px;
     font-weight: bold;
+    padding-top: 4%;
   }
 
   #skills{
