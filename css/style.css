@@ -1,7 +1,7 @@
+
  body{
    background-image: url("bg.jpg");
  }
- 
  /* Remove the navbar's default margin-bottom and rounded borders */ 
  .navbar {
     margin-bottom: 0;
@@ -13,7 +13,6 @@
   
   /* Set gray background color and 100% height */
   .sidenav {
-    padding-top: 75px;
     font-family: 'Poiret One', cursive;
     font-weight: bold;
     font-size: 16px;
@@ -29,14 +28,23 @@
  
   }
 
+
+
   #bwsterling{
     font-family: 'Poiret One', cursive;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 10px;
-    font-size: 50px;
-    margin-bottom: 15px;
+    font-size: 76.5px;
+  
   }
+
+  .sidenav{
+    position: relative;
+    right: 14px;
+    text-align: center;
+  }
+
+
 
   .nav{
     font-family: 'Poiret One', cursive;
@@ -47,6 +55,7 @@
   #find{
     font-weight: bold;
     padding-bottom: 5px;
+    font-size: 30px;
   }
   #git{
     height: 20%;
@@ -87,7 +96,7 @@
 }
   #skill{
     font-size: 16px;
-    
+    margin-right: 1.5%;
     text-align: center;
   }
 
@@ -100,6 +109,7 @@
   #paragraph{
     border-top;
     font-size: 16px;
+    margin-right: 1.5%;
   }
   /* On small screens, set height to 'auto' for sidenav and grid */
   @media screen and (max-width: 767px) {
@@ -110,51 +120,30 @@
     .row.content {height:auto;} 
   }
 
-  text {
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;
-    -webkit-animation: draw 8s forwards;
-  }
-  @-webkit-keyframes draw {
-    100% {
-      stroke-dashoffset: 0;
-    }
-  }
-  text {
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;
-    -webkit-animation: draw 8s forwards;
-    -moz-animation: draw 8s forwards;
-    -o-animation: draw 8s forwards;
-    -ms-animation: draw 8s forwards;
-    animation: draw 8s forwards;
-  }
-  @-webkit-keyframes draw {
-    100% {
-      stroke-dashoffset: 0;
-    }
-  }
-  @-moz-keyframes draw {
-    100% {
-      stroke-dashoffset: 0;
-    }
-  }
-  @-o-keyframes draw {
-    100% {
-      stroke-dashoffset: 0;
-    }
-  }
-  @-ms-keyframes draw {
-    100% {
-      stroke-dashoffset: 0;
-    }
+  a {
+    color: hotpink;
+    text-decoration: none;
+}
 
-    a:hover { 
-      background-color: yellow;
-  }
+a:visited {
+  text-decoration: none;
+}
+
+
 
   #image{
     width: 150px;
     height: 80px;
     image: fill;
+  }
+
+  #logos{
+    text-align: left;
+    padding-left: 25%;
+    padding-top: 2%;
+    font-size: 20px;
+  }
+
+  #mainbody{
+    background-color: lightgray;
   }
