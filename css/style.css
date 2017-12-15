@@ -10,6 +10,20 @@ body{
   font-weight: bold;
 }
 
+.title{
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Poiret One', cursive;
+  font-size: 70px;
+  position: relative;
+  top: 20px;
+}
+
+.svg{
+  position: relative;
+  top: 10px;
+}
+
  .navbar {
     margin-bottom: 0;
     border-radius: 0;
