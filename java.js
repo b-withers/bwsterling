@@ -1,5 +1,5 @@
 
-$(document).ready(function() {
+  jQuery(document).ready(function($) {
     
     var s = Snap('svg');
     var text = 'BW Sterling Development & Design'
@@ -14,8 +14,8 @@ $(document).ready(function() {
       'font-size': 65,
       fill: 'gray',
       stroke: "black",
-      'stroke-dasharray': 600,
-      'stroke-dashoffset': 700
+      'stroke-dasharray': 900,
+      'stroke-dashoffset': 1000
     })
     
     $('tspan').each(function(index) {
@@ -26,5 +26,9 @@ $(document).ready(function() {
       })
     })
     
+
+    
+
+
     
     });
