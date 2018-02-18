@@ -1,5 +1,7 @@
 
   jQuery(document).ready(function($) {
+
+    $(".title-contact, .contact-email").fadeIn("slow");
     
     var s = Snap('svg');
     var text = 'BW Sterling Development & Design'
@@ -25,6 +27,8 @@
         $(this).css('fill', '#000000')
       })
     })
+
+    $(".title-contact, .contact-email").fadeIn("slow");
     
 
     
