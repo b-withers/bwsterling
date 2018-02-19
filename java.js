@@ -28,11 +28,4 @@
       })
     })
 
-    $(".title-contact, .contact-email").fadeIn("slow");
-    
-
-    
-
-
-    
     });

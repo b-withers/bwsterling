@@ -62,9 +62,32 @@ body{
     font-size: 73px;
   }
 
+  .my-4{
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+  }
+
   .sidenav{
     position: relative;
     right: 14px;   
+  }
+
+  .card-text{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .card-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+  .portfolio-item{
+    text-align: center;
   }
 
   #logos{
@@ -130,10 +153,15 @@ body{
   font-weight: bold;
 }
 
+.portcont{
+  background-color: #bfbfbf;
+}
+
   #skill{
     font-size: 18px;
     margin-right: 1.5%;
     text-align: center;
+    font-weight: bold;
   }
 
   #profile{
@@ -143,8 +171,9 @@ body{
   }
   
   #paragraph{
-    font-size: 16px;
+    font-size: 18px;
     margin-right: 1.5%;
+    font-weight: bold;
   }
 
   a {
